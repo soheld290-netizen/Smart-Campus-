@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Smart Campus Portal of Zeal College of Engineering & Research, Pune">
+
+    <meta name="keywords"
+        content="Zeal College Pune, Smart Campus, ZCOER, Student Portal">
+
+    <meta name="author" content="Deshmukh Sohel Shahanur">
+
+    <title>Smart Campus | ZCOER Pune</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <div class="logo-icon">Z</div>
+
+            <div class="logo-text">
+                <h1>Smart Campus</h1>
+                <p>Zeal College of Engineering & Research</p>
+            </div>
+
+        </div>
+
+        <button class="menu-btn" onclick="toggleMenu()" aria-label="Open Menu">
+            ☰
+        </button>
+
+        <nav id="navbar">
+
+            <a href="#home">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#departments">Departments</a>
+            <a href="#notices">Notices</a>
+            <a href="#developer">Developer</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO</p>
+
+            <h2>
+                Zeal College of Engineering & Research
+            </h2>
+
+            <p class="hero-description">
+                Smart Campus Portal for students, faculty
+                and college information.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#dashboard" class="btn">
+                    Explore Campus →
+                </a>
+
+                <a href="#developer" class="btn secondary-btn">
+                    Meet Developer
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= COLLEGE INFORMATION ================= -->
+
+    <section class="college-info">
+
+        <div class="section-heading">
+
+            <p class="section-tag">ABOUT ZCOER</p>
+
+            <h2>College Information</h2>
+
+            <p>
+                Important information about our college campus.
+            </p>
+
+        </div>
+
+
+        <div class="info-grid">
+
+            <div class="info-card">
+
+                <span class="info-icon">🏫</span>
+
+                <h3>College</h3>
+
+                <p>
+                    Zeal College of Engineering & Research
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-icon">👨‍🏫</span>
+
+                <h3>Principal</h3>
+
+                <p>
+                    Dr. Ajit M. Kate
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-icon">⏰</span>
+
+                <h3>College Timing</h3>
+
+                <p>
+                    9:00 AM – 3:15 PM
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <span class="info-icon">📍</span>
+
+                <h3>Location</h3>
+
+                <p>
+                    Narhe-Dhayari Road, Narhe, Pune – 411041
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DASHBOARD ================= -->
+
+    <section id="dashboard" class="dashboard">
+
+        <div class="section-heading">
+
+            <p class="section-tag">STUDENT PORTAL</p>
+
+            <h2>Student Dashboard</h2>
+
+            <p>
+                Quick access to important student services.
+            </p>
+
+        </div>
+
+
+        <div class="dashboard-grid">
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">📊</div>
+
+                <h3>Attendance</h3>
+
+                <p class="number">85%</p>
+
+                <p>Overall Attendance</p>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">📅</div>
+
+                <h3>Timetable</h3>
+
+                <p>
+                    View today's lectures
+                </p>
+
+                <button onclick="showMessage('Timetable feature coming soon!')">
+                    View Timetable
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">📝</div>
+
+                <h3>Results</h3>
+
+                <p>
+                    Check your academic results
+                </p>
+
+                <button onclick="showMessage('Results section coming soon!')">
+                    View Results
+                </button>
+
+            </div>
+
+
+            <div class="dashboard-card">
+
+                <div class="card-icon">📢</div>
+
+                <h3>Notices</h3>
+
+                <p>
+                    Latest college announcements
+                </p>
+
+                <a href="#notices">
+                    View Notices →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DEPARTMENTS ================= -->
+
+    <section id="departments" class="departments">
+
+        <div class="section-heading">
+
+            <p class="section-tag">ACADEMICS</p>
+
+            <h2>Our Departments</h2>
+
+            <p>
+                Explore the engineering departments at ZCOER.
+            </p>
+
+        </div>
+
+
+        <div class="department-grid">
+
+
+            <div class="department-card">
+
+                <span>💻</span>
+
+                <h3>
+                    Computer Science & Engineering
+                </h3>
+
+                <p>CSE</p>
+
+            </div>
+
+
+            <div class="department-card">
+
+                <span>🤖</span>
+
+                <h3>
+                    Artificial Intelligence & Data Science
+                </h3>
+
+                <p>AIDS</p>
+
+            </div>
+
+
+            <div class="department-card">
+
+                <span>🖥️</span>
+
+                <h3>
+                    Information Technology
+                </h3>
+
+                <p>IT</p>
+
+            </div>
+
+
+            <div class="department-card">
+
+                <span>🧠</span>
+
+                <h3>
+                    Artificial Intelligence & Machine Learning
+                </h3>
+
+                <p>AIML</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NOTICES ================= -->
+
+    <section id="notices" class="notices">
+
+        <div class="section-heading">
+
+            <p class="section-tag">CAMPUS UPDATES</p>
+
+            <h2>Latest Notices</h2>
+
+            <p>
+                Stay updated with important campus information.
+            </p>
+
+        </div>
+
+
+        <div class="notice-container">
+
+
+            <div class="notice">
+
+                <span>📢</span>
+
+                <div>
+
+                    <h3>
+                        Welcome to Smart Campus
+                    </h3>
+
+                    <p>
+                        Smart Campus Portal is designed to provide
+                        important student and college information.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="notice">
+
+                <span>📅</span>
+
+                <div>
+
+                    <h3>
+                        College Timings
+                    </h3>
+
+                    <p>
+                        Regular college timing is 9:00 AM to 3:15 PM.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DEVELOPER ================= -->
+
+    <section id="developer" class="developer">
+
+        <div class="section-heading">
+
+            <p class="section-tag">PROJECT DEVELOPER</p>
+
+            <h2>About the Developer</h2>
+
+            <p>
+                Meet the student behind the Smart Campus ZCOER project.
+            </p>
+
+        </div>
+
+
+        <div class="developer-card">
+
+
+            <div class="developer-avatar">
+                👨‍💻
+            </div>
+
+
+            <div class="developer-content">
+
+                <h3>
+                    Deshmukh Sohel Shahanur
+                </h3>
+
+                <p class="developer-role">
+                    Second Year | Artificial Intelligence and Data Science
+                </p>
+
+
+                <div class="developer-details">
+
+                    <p>
+                        🎓 <strong>Year:</strong>
+                        Second Year
+                    </p>
+
+                    <p>
+                        🤖 <strong>Branch:</strong>
+                        Artificial Intelligence and Data Science
+                    </p>
+
+                    <p>
+                        🏫 <strong>College:</strong>
+                        Zeal College of Engineering & Research, Pune
+                    </p>
+
+                    <p>
+                        🛠️ <strong>Skills:</strong>
+                        HTML, CSS, JavaScript
+                    </p>
+
+                    <p>
+                        🚀 <strong>Project:</strong>
+                        Smart Campus ZCOER
+                    </p>
+
+                    <p>
+                        👨‍🏫 <strong>Guide:</strong>
+                        Somesh Naik S R
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="https://github.com/soheld290-netizen"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="github-btn">
+
+                    GitHub Profile ↗
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <div class="section-heading">
+
+            <p class="section-tag">GET IN TOUCH</p>
+
+            <h2>Contact Us</h2>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div>
+
+                <h3>📍 Address</h3>
+
+                <p>
+                    Zeal College of Engineering & Research,<br>
+                    Narhe-Dhayari Road,<br>
+                    Narhe, Pune – 411041
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>📞 Contact</h3>
+
+                <p>
+                    7558666663
+                </p>
+
+                <h3>📧 Email</h3>
+
+                <p>
+                    zcoer@zealeducation.com
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>🌐 Official Website</h3>
+
+                <a
+                    href="https://zcoer.in/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Visit ZCOER Website →
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>Smart Campus ZCOER</h3>
+
+            <p>
+                Developed as a Smart Campus Project
+            </p>
+
+            <p>
+                © 2026 Smart Campus | Zeal College of Engineering & Research
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+  </html>
